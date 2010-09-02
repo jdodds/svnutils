@@ -9,3 +9,7 @@ tasks.
 + svnrmnew :: rm files not currently tracked in the repo
 
 More to come as I need them. Additions welcome.
+
+Useful example:
+`svnlistadded | xargs svn changelist foobar`
+
