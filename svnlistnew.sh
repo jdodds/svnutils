@@ -3,5 +3,5 @@
 old_ifs=${IFS}
 IFS=$'
 '
-svn status | grep ?
+svn status | grep ^? | awk '{ print $2 }'
 IFS=${old_ifs}
