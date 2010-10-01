@@ -11,5 +11,5 @@ tasks.
 More to come as I need them. Additions welcome.
 
 Useful example:
-`svnlistadded | xargs svn changelist foobar`
+`svnlistadded | xargs -I{}  svn changelist foobar {}`
 

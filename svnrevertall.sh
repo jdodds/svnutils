@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-svn status | grep M | awk '{ print $2 }' | xargs svn revert
+svn status | grep M | awk '{ $1=""; $0=$0; $1=$1; print }' | xargs svn revert
