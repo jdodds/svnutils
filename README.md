@@ -12,5 +12,7 @@ tasks.
 More to come as I need them. Additions welcome.
 
 Useful example (the -I{} foo {} stuff makes xargs handle spaces "gracefully"):
+=======
+
 `svnlistadded | xargs -I{}  svn changelist foobar {}`
 
