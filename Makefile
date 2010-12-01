@@ -12,4 +12,4 @@ install-all:
 	install -m 755 svnrmchangelist.sh $(BINDIR)/svnrmchangelist
 	install -m 755 svnrmmissing.sh $(BINDIR)/svnrmmissing
 	install -m 755 svnrmnew.sh $(BINDIR)/svnrmnew
-	instamm -m 755 svnlistmodified.sh $(BINDIR)/svnlistmodified
+	install -m 755 svnlistmodified.sh $(BINDIR)/svnlistmodified
