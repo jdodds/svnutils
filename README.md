@@ -8,6 +8,8 @@ tasks.
 + svnrmchangelist :: remove changelist from all files listed in `svn status`
 + svnrmmissing :: rm files marked with ! (careful...)
 + svnrmnew :: rm files not currently tracked in the repo
++ svnstu :: svn status -u --ignore-externals
++ svnstux :: svn status -u
 
 More to come as I need them. Additions welcome.
 
