@@ -13,3 +13,5 @@ install-all:
 	install -m 755 svnrmmissing.sh $(BINDIR)/svnrmmissing
 	install -m 755 svnrmnew.sh $(BINDIR)/svnrmnew
 	install -m 755 svnlistmodified.sh $(BINDIR)/svnlistmodified
+	install -m 755 svnstu.sh $(BINDIR)/svnstu
+	install -m 755 svnstux.sh $(BINDIR)/svnstux
