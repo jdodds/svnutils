@@ -15,3 +15,5 @@ install-all:
 	install -m 755 svnlistmodified.sh $(BINDIR)/svnlistmodified
 	install -m 755 svnstu.sh $(BINDIR)/svnstu
 	install -m 755 svnstux.sh $(BINDIR)/svnstux
+	install -m 755 svnst.sh $(BINDIR)/svnst
+	install -m 755 svnstx.sh $(BINDIR)/svnstx
